@@ -15,6 +15,7 @@ const Header = () => {
     return (
         <nav className={headerStyles.header}>
             <h1><Link className={headerStyles.title} to="/">{data.site.siteMetadata.title}</Link></h1>
+            <h2>Or ones I want to go to anyway...</h2>
             <ul className={headerStyles.navList}>
                 <li>
                 <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link>
@@ -23,7 +24,7 @@ const Header = () => {
                 <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">About</Link>
                 </li>
                 <li>
-                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog">Blog</Link>
+                <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/meetup">Meetups</Link>
                 </li>
                 <li>
                 <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact">Contact</Link>

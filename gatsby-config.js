@@ -4,17 +4,21 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   /* Your site config here */
   plugins: [
     "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: "6itevyfuab79",
-        accessToken: "LZZbPaujHM9o8PxmsHXzFyeYcX6HcH56az8tMjjJH7U"
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
-
     },
     {
       resolve: "gatsby-transformer-remark",
@@ -41,7 +45,7 @@ module.exports = {
     }
   ],
   siteMetadata: {
-    title: "Gatsby Development, Yo",
+    title: "Coding Meetups This Week",
     author: "Nicholas Feitel"
   }
 }
