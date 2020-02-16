@@ -17,7 +17,7 @@ const contact = () => {
         <Head title="Contact"/>
             <h1>Say hi, will you?</h1>
             <ul className={contactStyle.posts}>
-            <li className={contactStyle.post}><a target="_blank" rel="noopener noreferrer" style={linkStyle} href="mailto:nicholas.feitel@gmail.com">Email Nic</a></li>
+            <li className={contactStyle.post}><a target="_blank" rel="noopener noreferrer" style={linkStyle} href="mailto:nicholas.feitel@gmail.com">Email Nic, he's nice!</a></li>
             <li className={contactStyle.post}><a target="_blank" rel="noopener noreferrer" style={linkStyle} href="https://wonderful-jackson-9e020f.netlify.com">See his Portfolio</a></li>
             <li className={contactStyle.post}><a target="_blank" rel="noopener noreferrer" style={linkStyle} href="https://www.linkedin.com/in/nicholasfeitel/">Network with him on LinkedIn</a></li>
             <li className={contactStyle.post}><a target="_blank" rel="noopener noreferrer" style={linkStyle} href="https://www.youtube.com/watch?v=4BQLE_RrTSU">Have the time of your life</a></li>
