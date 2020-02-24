@@ -4,6 +4,7 @@ import Head from "../components/head"
 // import BMO from "../posts/bmo.png"
 import {Link, useStaticQuery, graphql} from "gatsby"
 import Img from "gatsby-image"
+import {SEO} from "gatsby-theme-seo"
 
 
 const IndexPage = () => {
@@ -34,6 +35,7 @@ const IndexPage = () => {
         <Layout>
             <Head title= "Home"/>
             {/* <div><img alt="BMO" src={BMO} /></div> */}
+            <SEO/>
             <Img alt="BMO" fluid={data.file.childImageSharp.fluid}/>
         <h1 style={{color: "black"}}>You looking for meetups to go to?</h1>
         <h2><Link style={{textDecoration: "none", color: "black"}} to="/meetup">I am going to these this week, so who knows if they are good, but I hope so!</Link></h2>

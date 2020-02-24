@@ -15,6 +15,15 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     `gatsby-transformer-sharp`,
     {
+      resolve: 'gatsby-theme-seo', 
+      options: {
+          title: 'Coding Meetups This Week',
+          description: 'Coding Meetups I go to in NYC or want to!',
+          author: 'Nicholas Feitel',
+          siteUrl: 'https://zen-jennings-88f7da.netlify.com/'
+      }
+  },
+    {
       resolve: "gatsby-source-contentful",
       options: {
         spaceId: "6itevyfuab79",
