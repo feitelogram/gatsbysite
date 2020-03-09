@@ -41,7 +41,7 @@ const BlogPage = () => {
     return (
             <Layout>
               <Head title="Meetups"/>
-            <h1>Week of March 2nd, 2020</h1>
+            <h1>Week of March 9th, 2020</h1>
                 <ol className={blogStyles.posts}>{renderList()}</ol>
             </Layout>
        
