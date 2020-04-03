@@ -33,7 +33,7 @@ const IndexPage = () => {
 
     return(
         <Layout>
-            <Head title= 'Home'/>
+            <Head title='Home'/>
             {/* <div><img alt="BMO" src={BMO} /></div> */}
             <SEO/>
             <Img alt="BMO" fluid={data.file.childImageSharp.fluid}/>
