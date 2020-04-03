@@ -42,7 +42,7 @@ const IndexPage = () => {
         <h3>Other Stuff:</h3>
         <p style={pStyle}>Want to see my friends jokes retweeted?: <a target="_blank" rel="noopener noreferrer" style={linkStyle} href="http://twitter.com/feitelogram">Twitter</a></p>
         <p style={pStyle}>Want to see pictures of pizza and dogs?: <a target="_blank" rel="noopener noreferrer" style={linkStyle} href="http://instagram.com/feitelogram">Instagram</a></p>
-        <p style={pStyle}>Want to hire me and get dogs and jokes?: <a target="_blank" rel="noopener noreferrer" style={linkStyle} href="http://linkedin/in/nicholas-feitel">LinkedIn</a></p>
+        <p style={pStyle}>Want to hire me and get dogs and jokes?: <a target="_blank" rel="noopener noreferrer" style={linkStyle} href="http://linkedin.com/in/nicholas-feitel">LinkedIn</a></p>
 
         </Layout>
     )
